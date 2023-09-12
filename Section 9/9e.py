@@ -1,0 +1,11 @@
+print('Enter your password: ')
+pass1 = input()
+print('Confirm your password: ')
+pass2 = input()
+while pass1 != pass2:
+    print('The passwords do not match, enter your password again: ')
+    print('Enter your password: ')
+    pass1 = input()
+    print('Confirm your password: ')
+    pass2 = input()
+print('Excellent, your passwords match!')
